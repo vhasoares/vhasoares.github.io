@@ -1,128 +1,147 @@
-<!DOCTYPE html>
-<!--
-	Evandro S. Ortigossa
-	M.Sc. Student in Computer Science
-	Institute of Mathematical and Computer Sciences - ICMC
-	University of São Paulo - USP
-	São Carlos, São Paulo, Brazil.
--->
+<!DOCTYPE HTML>
 
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Aula Visualização - Coordenadas Paralelas</title>
+	<head>
+		<title>Victor Hugo Andrade Soares</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-	<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+		<!-- Header -->
+			<header id="header">
+				<nav class="left">
+					<a href="#menu"><span>Menu</span></a>
+				</nav>
+				<a href="index.html" class="logo">Victor Hugo Andrade Soares</a>
+				<nav class="right">
+					<!-- <a href="#" class="button alt">Log in</a> -->
+				</nav>
+			</header>
 
-	<style type="text/css">
-		
-		body {
-			font: 12px sans-serif;
-		}
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="downloads.html">Downloads</a></li>
+				</ul>
+				<ul class="actions vertical">
+					<li><a href="#" class="button fit">Login</a></li>
+				</ul>
+			</nav>
 
-		.link path {
-			fill: none;
-			/*stroke: steelblue;*/
-		}
+		<!-- Banner -->
+			<section id="banner">
+				<div class="content">
+					<h1>Welcome</h1>
+					<p>On this website you can find my research works,<br />algorithms, data and another informations.</p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Get Started</a></li>
+					</ul>
+				</div>
+			</section>
 
-		.setosa {
-			stroke: #800; /* vermelho */
-		}
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<div class="inner flex flex-3">
+					<div class="flex-item left">
+						<div>
+							<h3><a href="http://lattes.cnpq.br/8627736641321972" target="_blank">Curriculum</a></h3>
+							<p>Access my Lattes curriculum.</p>
+						</div>
+						<div>
+							<h3><a href="research.html">Research</a></h3>
+							<p>Get information about my past and<br />current research projects.</p>
+						</div>
+					</div>
+					<div class="flex-item image fit round">
+						<img src="images/pic01.jpg" alt="" />
+					</div>
+					<div class="flex-item right">
+						<div>
+							<h3><a href="downloads.html">Downloads</a></h3>
+							<p>Download algorithms and data bases<br /> used in my research projects.</p>
+						</div>
+						<div>
+							<h3><a href="https://www.linkedin.com/in/victor-hugo-andrade-soares-7b6752a4/" target="_blank">Linkedin</a></h3>
+							<p>Visit my Linkedin profile.</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
-		.versicolor {
-			stroke: #080; /* verde */
-		}
+		<!-- Two -->
+			<section id="two" class="wrapper style1 special">
+				<div class="inner">
+					<h2>About me...</h2>
+					<figure>
+					    <p>
+					    	I received my Bachelor degree in Information Systems and my MSc degree in Science Computer from the University of Viçosa (UFV), Brazil, <br />in 2015 and 2017, respectively. Currently, I am a PhD Student in Computer Science and Computational Mathematics at the <br />Institute of Mathematics and Computer Science of the University of São Paulo (ICMC-USP) in São Carlos, Brazil.
+					    </p>
+					    <!-- <footer>
+					        <cite class="author">Jane Anderson</cite>
+					        <cite class="company">CEO, Untitled</cite>
+					    </footer> -->
+					</figure>
+				</div>
+			</section>
 
-		.virginica {
-			stroke: #008; /* azul */
-		}
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner flex flex-3">
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="images/pic02.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Sports</h3>
+							<p>Soon I will post some works involving sports.</p>
+						</div>
+					</div>
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="images/pic03.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Photograph</h3>
+							<p>Soon I will post some photographic work.</p>
+						</div>
+					</div>
+					<div class="flex-item box">
+						<div class="image fit">
+							<img src="images/pic04.jpg" alt="" />
+						</div>
+						<div class="content">
+							<h3>Music</h3>
+							<p>Soon I will post some music work.</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
-		.axis line,
-		.axis path {
-			fill: none;
-			stroke: #000;
-			shape-rendering: crispEdges;
-			stroke-width: 2px;
-		}
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>Get In Touch</h2>
+					<ul class="actions">
+						<li><span class="icon fa-phone"></span> <a href="tel:+55 (34) 99171-4579">+55 (34) 99171-4579</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="mailto:victorhugoasoares@gmail.com">victorhugoasoares@gmail.com</a></li>
+						<li><span class="icon fa-map-marker"></span> ICMC/USP - Avenida Trabalhador Sancarlense, 400 - Centro, São Carlos - SP, 13566-590</li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
+				</div>
+			</footer>
 
-	</style>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-</head>
-<body>
-
-	<script type="text/javascript">
-		
-		var margin= {top: 20, right: 30, bottom: 20, left: 30};
-
-		var width= 800- margin.left- margin.right;		
-		var height= 600- margin.top- margin.bottom;
-
-		var svg= d3.select("body")
-			.append("svg")
-			.attr("width", width+ margin.left+ margin.right)
-			.attr("height", height+ margin.top+ margin.bottom)
-			.append("g")
-				.attr("transform", "translate("+ margin.left +", "+ margin.top +")");
-
-
-		var scaleX= d3.scale.ordinal()
-			.rangePoints([0, width]);
-
-		var scaleY= {};
-
-		var line= d3.svg.line();
-		var axis= d3.svg.axis().orient("left");
-
-		var dimensions;
-
-
-		d3.csv("data.csv", function(error, data) {
-			if (error) {
-				console.log(error);
-				return;
-			}
-
-			// Extrai a lista de dimensoes e cria uma escala para cada dimensao
-			scaleX.domain(dimensions= d3.keys(data[4]).filter(function(d) {
-				return d != "species" && (scaleY[d] = d3.scale.linear()
-					.domain(d3.extent(data, function(p) { return +p[d]; }))
-					.range([height, 0]));
-			}));
-
-			var links= svg.append("g")
-				.attr("class", "link")
-				.selectAll("path")
-				.data(data)
-				.enter().append("path")
-					.attr("d", path)
-					.attr("class", function(d) { return d.species; });
-					// Classe de cada linha para colorir pela respectiva especie via CSS
-
-			// Adiciona um grupo de elementos para cada dimensao
-			var g= svg.selectAll(".dimension")
-				.data(dimensions)
-				.enter().append("g")
-					.attr("class", "dimension")
-					.attr("transform", function(d) { return "translate(" + scaleX(d) + ")"; });
-
-			// Adiciona um eixo e seu titulo
-			g.append("g")
-				.attr("class", "axis")
-				.each(function(d) { d3.select(this).call(axis.scale(scaleY[d])); })
-				.append("text")
-				.style("text-anchor", "middle")
-				.attr("y", -10)
-				.text(function(d) { return d; });
-
-		});
-
-		// Retorna o caminho para um ponto dos dados
-		function path(d) {
-			return line(dimensions.map(function(p) { return [scaleX(p), scaleY[p](d[p])]; }));
-		};
-
-
-	</script>
-
-</body>
+	</body>
 </html>
